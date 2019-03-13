@@ -1,5 +1,5 @@
 {
-  "name": "uilib-cli",
+  "name": "uilib-cli-testsh",
   "version": "0.1.6",
   "private": false,
   "main": "lib/uilib.umd.min.js",

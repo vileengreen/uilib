@@ -9,6 +9,11 @@ module.exports = {
     lintOnSave: false,
 
     css: { extract: false },
+   
+    publicPath: process.env.NODE_ENV === 'production' ? '/uilib/' : '/',
+    
+    
+    //uilib-cli
   //   chainWebpack: config => {
   //   config.module
   //     .rule('js')
