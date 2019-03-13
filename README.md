@@ -29,9 +29,20 @@ npm run lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
-src目录，改成 examples 用作示例展示
+#src目录，改成 examples 用作示例展示
 
-packages 用于编写存放组件
+#packages 用于编写存放组件
 
-refer to: http://www.rxshc.com/180.html
+#refer to:
+1.http://www.rxshc.com/180.html
+2.https://cli.vuejs.org/zh/guide/prototyping.html
 
+
+#dev
+npm i uilib-cli
+
+# refer to `.\examples` for dev guide 
+# import login from 'uilib-cli'
+# Vue.use(login)  
+# Else components : { login }
+# <login></login>

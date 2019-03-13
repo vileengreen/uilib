@@ -19,7 +19,7 @@
 export default {
     name :'searchlist',
     props:{
-        searchResult:{
+        dataArr:{
             type:Array,
             default : ()=>{ return [] },
         },
@@ -42,11 +42,11 @@ export default {
     
     methods: {
         setResult(){
-            console.log("setResult");
+            console.log("dataArr");
             this.showList = [];
             var self = this;
-            if(self.searchval!='' && this.searchResult.length> 0){
-                this.showList = this.searchResult.map(function(value,index,arr){
+            if(self.searchval!='' && this.dataArr.length> 0){
+                this.showList = this.dataArr.map(function(value,index,arr){
                    if(value.indexOf(self.searchval)>-1){
                         return value;
                    }
@@ -91,7 +91,7 @@ export default {
     }
 
     .search-list{
-        margin-top: 16px;
+     
         .s-row{
             height: 30px;
             
