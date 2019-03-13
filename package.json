@@ -1,16 +1,16 @@
 {
-  "name": "logintestsample",
-  "version": "0.1.2",
+  "name": "uilib-cli",
+  "version": "0.1.3",
   "private": false,
   "main": "lib/uilib.umd.min.js",
   "author": "liuyeqing",
   "repository": {
     "type": "git",
-    "url": "https://github.com/weui/weui.git"
+    "url": "https://github.com/vileengreen/uilib.git"
   },
   "keyword": "login searchlist ui-lib",
   "description":"ui库",
-  
+
   "scripts": {
     "serve": "vue-cli-service serve --open",
     "build": "vue-cli-service build",
