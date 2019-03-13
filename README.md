@@ -1,4 +1,4 @@
-# testdemo
+# uilib
 
 ## Project setup
 ```
