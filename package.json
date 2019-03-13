@@ -1,6 +1,6 @@
 {
   "name": "uilib-cli-testsh",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "private": false,
   "main": "lib/uilib.umd.min.js",
   "author": "liuyeqing",
