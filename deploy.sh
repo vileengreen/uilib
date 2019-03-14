@@ -27,7 +27,8 @@ git commit -m 'deploy'
 
 # 部署到 https://<USERNAME>.github.io/<REPO>
 #git push -f git@github.com:vileengreen/uilib.git master:gh-pages
-git push -f git@github.com:vileengreen/vileengreen.github.io.git master -uilib
+git push -f  https://github.com/vileengreen/uilib
+#git push -f git@github.com:vileengreen/vileengreen.github.io.git master -uilib
 
 #npm publish
 cd -
