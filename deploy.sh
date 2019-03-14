@@ -26,11 +26,10 @@ git commit -m 'deploy'
 # git@github.com:vileengreen/uilib.git
 #git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
-# 部署到 https://<USERNAME>.github.io/<REPO>
-#git push -f git@github.com:vileengreen/uilib.git master:gh-pages
-#http://username:password@remote
+# 部署到 github
 git push -f  https://vileengreen:lyq.1039056604@github.com/vileengreen/uilib
-#git push -f git@github.com:vileengreen/vileengreen.github.io.git master -uilib
 
-#npm publish
+npm login liuyeqing:1039056604
+npm publish
+
 #cd -
