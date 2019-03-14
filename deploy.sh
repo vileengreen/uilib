@@ -18,6 +18,7 @@
 
 
 git init
+git checkout dev
 git add -A
 git commit -m 'deploy'
 
@@ -28,7 +29,7 @@ git commit -m 'deploy'
 # 部署到 https://<USERNAME>.github.io/<REPO>
 #git push -f git@github.com:vileengreen/uilib.git master:gh-pages
 #http://username:password@remote
-git push -f  https://vileengreen:lyq.1039056604@github.com/vileengreen/uilib master
+git push -f  https://vileengreen:lyq.1039056604@github.com/vileengreen/uilib
 #git push -f git@github.com:vileengreen/vileengreen.github.io.git master -uilib
 
 #npm publish
