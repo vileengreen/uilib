@@ -1,21 +1,20 @@
 {
-  "name": "uilib-cli-testsh用户名密码",
-  "version": "0.1.7",
+  "name": "uilib-cli",
+  "version": "0.1.9",
   "private": false,
   "main": "lib/uilib.umd.min.js",
   "author": "liuyeqing",
   "repository": {
     "type": "git",
-    "url": "https://github.com/vileengreen/uilib.git"
+    "url": "https://gitlab.foresee.com.cn/liuyeqing/uilib.git"
   },
   "keyword": "login searchlist ui-lib",
-  "description":"ui库",
-
+  "description": "ui库",
   "scripts": {
     "serve": "vue-cli-service serve --open",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "lib": "vue-cli-service build --target lib --name uilib --dest lib packages/index.js" 
+    "lib": "vue-cli-service build --target lib --name uilib --dest lib packages/index.js && npm publish@0.1.9"
   },
   "dependencies": {
     "vue": "^2.6.6"
