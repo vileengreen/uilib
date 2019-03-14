@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
 # 当发生错误时中止脚本
-set -e
+#set -e
 
 # 构建
 #npm run lib
@@ -31,4 +31,4 @@ git push -f  https://github.com/vileengreen/uilib
 #git push -f git@github.com:vileengreen/vileengreen.github.io.git master -uilib
 
 #npm publish
-cd -
+#cd -
