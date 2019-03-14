@@ -14,7 +14,7 @@
     "serve": "vue-cli-service serve --open",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "lib": "vue-cli-service build --target lib --name uilib --dest lib packages/index.js && npm publish@0.1.9"
+    "lib": "vue-cli-service build --target lib --name uilib --dest lib packages/index.js && npm publish"
   },
   "dependencies": {
     "vue": "^2.6.6"
