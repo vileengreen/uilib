@@ -1,5 +1,5 @@
 {
-  "name": "uilib-cli-testsh",
+  "name": "uilib-cli-testsh用户名密码",
   "version": "0.1.7",
   "private": false,
   "main": "lib/uilib.umd.min.js",
