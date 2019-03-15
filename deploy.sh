@@ -3,6 +3,8 @@
 # 当发生错误时中止脚本
 #set -e
 
+npm version patch
+
 # 构建
 npm run lib
 
@@ -14,8 +16,6 @@ npm run lib
 #pwd : 1039056604
 #email:1594755125@qq.com
 
-#npm publish@版本号
-npm version patch
 npm publish
 
 # cd 到构建输出的目录下 
