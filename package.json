@@ -1,6 +1,6 @@
 {
   "name": "uilib-cli",
-  "version": "0.1.16",
+  "version": "0.1.17",
   "private": false,
   "main": "lib/uilib.umd.min.js",
   "author": "liuyeqing",
