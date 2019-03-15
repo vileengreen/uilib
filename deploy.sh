@@ -14,6 +14,7 @@ npm run lib
 #pwd : 1039056604
 #email:1594755125@qq.com
 
+#npm publish@版本号
 npm publish
 
 # cd 到构建输出的目录下 
@@ -28,6 +29,7 @@ git init
 git checkout dev
 git add -A
 git commit -m 'deploy'
+
 
 # 部署到 github
 #gitlab https://gitlab.foresee.com.cn/liuyeqing/uilib.git
