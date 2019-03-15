@@ -2,7 +2,7 @@
 
 # 当发生错误时中止脚本
 #set -e
-
+#npm version <update_type>  patch 补丁   minor小改  major大改
 npm version patch
 
 # 构建
