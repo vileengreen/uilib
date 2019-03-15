@@ -1,6 +1,5 @@
 #!/usr/bin/env node
-console.log("当前的版本号",process.env.npm_package_version)
-
+// console.log("当前的版本号",process.env.npm_package_version)
 var fs = require('fs')
 var packageJSON = require('./package.json');
 var version = packageJSON.version;
